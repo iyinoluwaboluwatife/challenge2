@@ -1,0 +1,371 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+*
+{
+  text-decoration: none;
+}
+.roboto-uniquifier {
+    font-family: "Roboto", serif;
+    /*font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;*/
+  }
+
+
+
+  body{
+    background-color: #ffffff;
+}
+  .body{
+    display: block;
+    background-color: #fff;
+    border-radius:  18px ;
+    width: 100%;
+
+  }
+ img{
+    width: 18px;
+    height: 18px;
+ }
+ .illustration1{
+    visibility: visible;
+    width: 100%;
+    height:350px;
+    margin-top: -10px;
+    background-image: url('images/illustration.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: table;
+    border-radius:  15px;
+ }
+ .text{
+    margin: 40px 30px 40px 30px;
+    align-content: center;
+ }
+.text h1{
+    font-family: Roboto;
+    font-size: 40px;
+    line-height:45px;
+}
+.textp{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height:25px;
+    margin:30px 0 25px 0 ;
+}
+.update1 p,.update2 p,.update3 p{
+    font-family: Roboto;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.update1,.update2,.update3{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+form{
+    margin: 30px 0 20px 0;
+}
+.address p{
+    font-family: Roboto;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+#email{
+    width: 285px;
+    height: 35px;
+    border: 1px solid #9b9b9b;
+    border-radius: 6px ;
+}
+#email:focus{
+    width: 285px;
+    height: 35px;
+    border: 1.5px solid #9a9a9a;
+    background-color: #ffffff;
+    border-radius: 6px ;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+}
+.error{
+    margin-right: 36px;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #f64343;
+    visibility: visible;
+}
+button{
+    width: 295px;
+    height: 38px;
+    background-color: #323043;
+    border-radius: 6px ;
+    border: 8px;
+}
+.illustration{
+    display: none;
+}
+.successb{
+    display: flex;
+    justify-content: center;
+}
+.success{
+        background-color: #fff;
+        border-radius:  18px ;
+        padding: 50px 20px 30px 20px;
+}
+.check2{
+    width: 39px;
+    height:39px ;
+}
+.success h1{
+    font-family: Roboto;
+    font-size: 40px;
+    line-height:45px;
+    padding: 20px 0 20px 0;
+}
+.successp{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height:25px;
+    padding-bottom: 280px;
+}
+.button1{
+    width: 335px;
+    height: 38px;
+    background-color: #323043;
+    border-radius: 6px ;
+    border: 8px;
+}
+
+
+  @media only screen and (min-width:1000px){
+body{
+    background-color: #323043;
+}
+  .body{
+    display: flex;
+    background-color: #fff;
+    margin: 100px 150px 100px 200px;
+    border-radius:  18px ;
+    padding: 10px;
+    width: 60%;
+  }
+ img{
+    width: 18px;
+    height: 18px;
+ }
+ .illustration1{
+    display: none;
+ }
+ .text{
+    width: 100%;
+    margin: 40px 30px 40px 30px;
+ }
+.text h1{
+    font-family: Roboto;
+    font-size: 40px;
+    line-height:45px;
+}
+.textp{
+    font-family: Roboto;
+    font-size: 14px;
+    line-height:19px;
+    margin:30px 0 25px 0 ;
+}
+.update1 p,.update2 p,.update3 p{
+    font-family: Roboto;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.update1,.update2,.update3{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+form{
+    margin: 30px 0 20px 0;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+}
+.error{
+    margin-right: 10px;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #f64343;
+    visibility: visible;
+}
+.address p{
+    font-family: Roboto;
+    font-size: 14px;
+    margin-bottom: 8px;
+    
+}
+#email{
+    width: 330px;
+    height: 35px;
+    border: 1.5px solid #9b9b9b;
+    background-color: #ffffff;
+    border-radius: 6px ;
+}
+#email:focus{
+    width: 330px;
+    height: 35px;
+    border: 1.5px solid #9a9a9a;
+    background-color: #ffffff;
+    border-radius: 6px ;
+}
+.button{
+    width: 335px;
+    height: 38px;
+    background-color: #323043;
+    border-radius: 6px ;
+    border: 8px;
+}
+.button:hover{
+  background: linear-gradient(to right,#fc2549,#ff5d35);
+  box-shadow: 0 3px  8px  hsl(4, 100%, 67%);
+  transition: 0.5s;
+}
+.illustration{
+    visibility: visible;
+    width: 100%;
+    height:450px ;
+    background-image: url('images/illustration.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: table;
+    border-radius:  15px;
+}
+.successb{
+    display: flex;
+    justify-content: center;
+}
+.success{
+        background-color: #fff;
+        margin: 100px 450px 100px 440px;
+        border-radius:  18px ;
+        padding: 30px;
+}
+.check2{
+    width: 39px;
+    height:39px ;
+}
+.success h1{
+    font-family: Roboto;
+    font-size: 40px;
+    line-height:45px;
+    padding: 20px 0 20px 0;
+}
+.successp{
+    font-family: Roboto;
+    font-size: 14px;
+    line-height:19px;
+    padding-bottom: 20px;
+}
+.button1{
+    width: 335px;
+    height: 38px;
+    background-color: #323043;
+    border-radius: 6px ;
+    border: 8px;
+}
+}
